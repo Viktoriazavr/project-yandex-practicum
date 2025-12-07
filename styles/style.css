@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 49px 96px 51px;
+  padding: 92px 24px 96px 24px
 }
 
 .header__menu {
@@ -57,13 +57,13 @@
   justify-self: end;
   font-size: 18px;
   line-height: 1.35;
-  font-style: normal;  
+  font-style: normal;
 }
 
 /* COVER */
 .cover {
   position: relative;
-  padding: 165px 50px 50px;
+  padding: 165px 24px 50px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -114,6 +114,8 @@
 
 .cover__description {
   position: relative;
+  padding-left:50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,7 +146,7 @@
 
 /* LOTS */
 .lots {
-  padding: 180px 50px 120px 50px;
+  padding: 180px 24px 120px 24px;
 }
 
 .lots__heading {
@@ -226,20 +228,20 @@
 .about {
   display: grid;
   grid-template-columns: 430px auto;
-  padding: 0 50px 180px 50px;
+  padding: 0 24px 180px 24px;
   gap: 25px;
 }
 
 .about__column:first-child {
   position: relative;
   width: 430px;
-  min-height: 310px; /* 35px + 240px + 35px */
+  min-height: 310px;
 }
 
 .about__logo {
   position: absolute;
-  left: 47px;  /* как в макете */
-  top: 35px;   /* как в макете */
+  left: 47px;
+  top: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,13 +293,13 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
-  padding: 0 50px 90px;
+  padding: 0 24px 90px;
 }
 
 .address {
   font-size: 18px;
   line-height: 1.35;
-  font-style: normal;  
+  font-style: normal;
 }
 
 .footer__menu {
