@@ -118,7 +118,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 78px;
-  margin-top: 127px;
+  margin-top: 106px;
   z-index: 2;
 }
 
@@ -144,7 +144,7 @@
 
 /* LOTS */
 .lots {
-  padding: 180px 50px;
+  padding: 180px 50px 120px 50px;
 }
 
 .lots__heading {
@@ -228,10 +228,18 @@
   grid-template-columns: 430px auto;
   padding: 0 50px 180px 50px;
   gap: 25px;
-  justify-items: center;
+}
+
+.about__column:first-child {
+  position: relative;
+  width: 430px;
+  min-height: 310px; /* 35px + 240px + 35px */
 }
 
 .about__logo {
+  position: absolute;
+  left: 47px;  /* как в макете */
+  top: 35px;   /* как в макете */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,7 +255,7 @@
 }
 
 .about__title {
-  margin: 100px 0;
+  margin: 100px 0 100px;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
